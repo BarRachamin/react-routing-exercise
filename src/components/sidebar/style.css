@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-name {
+    display: none;
+  }
+  .container {
+    width: 50px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 575px;
+  background-color: rgb(141, 141, 227);
+}
+
+ul {
+  list-style: none;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.background {
+  display: inline-flex;
+}
+li {
+  color: aliceblue;
+}
+.color {
+  color: aliceblue;
+  display: flex;
+}
+.Name {
+  display: flex;
+
+  margin-top: 100px;
+}
